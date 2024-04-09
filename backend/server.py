@@ -50,9 +50,7 @@ class TodoServiceHTTP:
                 implementations of TodoService can share.
             3) this hasn't been tested, there may be bugs, so write a test that proves the filtering works as intended.
         """
-        response = requests.get(
-            "https://jsonplaceholder.typicode.com/todos", verify=False
-        )
+        response = requests.get("https://jsonplaceholder.typicode.com/todos")
 
         response.raise_for_status()
 
