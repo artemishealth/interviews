@@ -75,13 +75,7 @@ class TodoServiceHTTP:
 def main() -> None:
     todo_service_http = TodoServiceHTTP()
 
-    app = Starlette(
-        routes=(
-            Route(
-                path="/todos", endpoint=todo_service_http.list_todos, methods=["GET"]
-            ),
-        )
-    )
+    app = Starlette(routes=(Route(path="/todos", endpoint=todo_service_http.list_todos, methods=["GET"]),))
 
     return uvicorn.run(app, port=5000, log_level="info")
 
