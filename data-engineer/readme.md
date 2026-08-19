@@ -14,15 +14,17 @@
 
 # Starter Templates
 
-We have included a few starter templates available under `/src/main` if you choose to use Scala, Scala w/ Spark, or Java. 
-You are welcome to use any IDE of your choice and if you choose to use any of these templates, the prerequisites and 
-provided build files are listed below. 
+We have included a few starter templates available under `/src/main` if you choose to use Scala, Scala w/ Spark, Java, 
+or Python. You are welcome to use any IDE of your choice and if you choose to use any of these templates, the 
+prerequisites and provided build files are listed below. 
 
 | Language | Prerequisites | Build File | Template Location |   
 | -------- | ------------- | ---------- | ----------------- | 
 | Scala    | - JDK8 <br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaDataPipeline.scala` | 
 | Scala w/ Spark | - JDK8 <br /> - SBT |  `build.sbt` | `/src/main/scala/coding_exercise/ScalaSparkDataPipeline.scala` | 
 | Java | - JDK8  | `pom.xml` | `/src/main/java/coding_exercise/JavaDataPipeline.java` |
+| Python w/ pandas | - [uv](https://docs.astral.sh/uv/) | `pyproject.toml` | `/src/main/python/coding_exercise/python_pandas_data_pipeline.py` |
+| Python w/ polars | - [uv](https://docs.astral.sh/uv/) | `pyproject.toml` | `/src/main/python/coding_exercise/python_polars_data_pipeline.py` |
 
 # High Level Assignment Goals
 
